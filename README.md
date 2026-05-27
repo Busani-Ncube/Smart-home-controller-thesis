@@ -1,36 +1,7 @@
-Smart Home Controller Thesis
+Project Description:
 
-Name: Busani Ncube
+A professional multi-interface smart home controller built on Raspberry Pi 4B running Home Assistant OS. The system integrates ESP32 sensor nodes (temperature, PIR motion detection, relay control), a Waveshare 4.3" HDMI touchscreen, and Grove Vision AI V2 for intelligent person detection. All monitored and controlled through a Home Assistant dashboard accessible from any device.
 
-University: University of Economy in Bydgoszcz
+Timeline:
 
-Programme: Computer Engineering and Mechatronics
-
-
-
-Project Description
-
-A professional smart home controller built on Raspberry Pi 4 running Home Assistant. The system integrates DHT22 temperature and humidity sensor, PIR motion sensor, relay module for device control, and SG90 servo for door lock simulation. All monitored and controlled through a professional Home Assistant dashboard accessible from any phone or browser.
-
-
-
-Thesis Structure
-
-\- Chapter 1 — Introduction
-
-\- Chapter 2 — Literature Review
-
-\- Chapter 3 — System Design
-
-\- Chapter 4 — Implementation
-
-\- Chapter 5 — Testing and Evaluation
-
-\- Chapter 6 — Conclusion
-
-
-
-Timeline
-
-Start: 2 April 2026 | Deadline: 12 June 2026
-
+Start: 27 May 2026 | Deadline: 4 September 2026
