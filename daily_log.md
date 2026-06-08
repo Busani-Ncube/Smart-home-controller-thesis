@@ -17,3 +17,10 @@ I created a dedicated MQTT user with local access only for secure broker authent
 I configured the MQTT integration in Home Assistant which auto-discovered the Mosquitto broker.
 I installed MQTT Explorer on my laptop and successfully connected to homeassistant.local on port 1883.
 The broker is live showing topics and system messages confirming full MQTT functionality.
+
+## Day 4 — 8 June 2026
+Today I updated the ESP32 sketch to publish temperature readings via MQTT to Home Assistant.
+I used MQTT autodiscovery to automatically create the sensor entity in Home Assistant.
+The ESP32 successfully connected to WiFi and MQTT broker publishing 53.33°C every 10 seconds.
+The ESP32 Temperature entity appeared in Home Assistant under Devices & Services → MQTT.
+I added the temperature sensor as a favourite entity on the Overview dashboard.
