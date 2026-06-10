@@ -24,3 +24,10 @@ I used MQTT autodiscovery to automatically create the sensor entity in Home Assi
 The ESP32 successfully connected to WiFi and MQTT broker publishing 53.33°C every 10 seconds.
 The ESP32 Temperature entity appeared in Home Assistant under Devices & Services → MQTT.
 I added the temperature sensor as a favourite entity on the Overview dashboard.
+
+## Day 5 — 10 June 2026
+Today I wired the HC-SR505 PIR sensor to the ESP32 on GPIO 14 using VCC, GND and OUT pins.
+I troubleshot the sensor extensively — discovered it requires a 60 second warmup before detecting motion.
+I wrote the PIR MQTT sketch using autodiscovery which automatically created a binary sensor entity in Home Assistant.
+The PIR Motion Sensor entity state changes from Clear to Detected in real time when motion is detected.
+I added both ESP32 Temperature and PIR Motion Sensor to the Overview dashboard confirming full MQTT pipeline working.
