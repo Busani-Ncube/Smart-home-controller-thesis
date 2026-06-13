@@ -31,3 +31,16 @@ I troubleshot the sensor extensively — discovered it requires a 60 second warm
 I wrote the PIR MQTT sketch using autodiscovery which automatically created a binary sensor entity in Home Assistant.
 The PIR Motion Sensor entity state changes from Clear to Detected in real time when motion is detected.
 I added both ESP32 Temperature and PIR Motion Sensor to the Overview dashboard confirming full MQTT pipeline working.
+
+## Day 6 — 11 June 2026
+Today I attempted to integrate the relay module (SRD-03VDC-SL-C) with the ESP32.
+I discovered the relay provided is an ESP-01 relay board requiring the ESP-01S module and USB-to-TTL adapter to program.
+I researched the board extensively and confirmed it uses GPIO0 of the ESP-01S to trigger the relay via active LOW signal.
+I installed ESP8266 board support in Arduino IDE and prepared the MQTT relay sketch for the ESP-01S.
+The relay integration is pending — I will request a standard 5V relay module (SRD-05VDC-SL-C) to connect directly to ESP32 GPIO for a cleaner architecture.
+
+## Day 7 — 12 June 2026
+Today I combined the temperature and PIR sensor sketches into one unified ESP32 sketch.
+Both sensors are now publishing simultaneously to Home Assistant via MQTT autodiscovery.
+I confirmed ESP32 Temperature and PIR Motion Sensor entities both show live data on the HA dashboard at the same time.
+I organised all project photos and screenshots into the media folder and cleaned up the repository.
