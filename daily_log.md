@@ -51,3 +51,11 @@ I installed the HAOS Kiosk Display community add-on to launch a browser dashboar
 The HA Overview dashboard successfully displayed on the Waveshare screen in kiosk mode.
 Touch input was confirmed working — scrolling and basic navigation functional on the touchscreen.
 The kiosk add-on is set to manual start only to avoid interfering with normal HA operation.
+
+## Day 9 — 13 June 2026
+Today I confirmed all ESP32 sensors are successfully connected to the Raspberry Pi Home Assistant instance.
+The Mosquitto MQTT broker on the Pi is receiving data from the ESP32 reliably.
+ESP32 Temperature and PIR Motion Sensor entities are both showing live data in Home Assistant.
+All MQTT autodiscovery configurations are working correctly on the Pi HA instance.
+Relay entity integration is pending arrival of standard 5V relay module to connect directly to ESP32 GPIO.
+
