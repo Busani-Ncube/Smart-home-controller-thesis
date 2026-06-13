@@ -44,3 +44,10 @@ Today I combined the temperature and PIR sensor sketches into one unified ESP32 
 Both sensors are now publishing simultaneously to Home Assistant via MQTT autodiscovery.
 I confirmed ESP32 Temperature and PIR Motion Sensor entities both show live data on the HA dashboard at the same time.
 I organised all project photos and screenshots into the media folder and cleaned up the repository.
+
+## Day 8 — 13 June 2026
+Today I confirmed the Waveshare 4.3" HDMI touchscreen is connected and working with the Raspberry Pi.
+I installed the HAOS Kiosk Display community add-on to launch a browser dashboard on the touchscreen.
+The HA Overview dashboard successfully displayed on the Waveshare screen in kiosk mode.
+Touch input was confirmed working — scrolling and basic navigation functional on the touchscreen.
+The kiosk add-on is set to manual start only to avoid interfering with normal HA operation.
