@@ -59,3 +59,10 @@ ESP32 Temperature and PIR Motion Sensor entities are both showing live data in H
 All MQTT autodiscovery configurations are working correctly on the Pi HA instance.
 Relay entity integration is pending arrival of standard 5V relay module to connect directly to ESP32 GPIO.
 
+## Day 10 — 13 June 2026
+Today I completed the Waveshare 4.3" touchscreen configuration with Home Assistant in kiosk mode.
+The HAOS Kiosk Display add-on successfully launches the HA dashboard fullscreen on the Waveshare screen.
+Touch input is working — scrolling and tapping confirmed functional on the touchscreen display.
+I recorded a video demonstration of the touchscreen dashboard for thesis evidence in Chapter 4.2.
+The kiosk add-on is manually started to avoid interfering with normal HA browser access.
+
