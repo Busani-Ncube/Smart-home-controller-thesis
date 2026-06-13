@@ -66,3 +66,11 @@ Touch input is working — scrolling and tapping confirmed functional on the tou
 I recorded a video demonstration of the touchscreen dashboard for thesis evidence in Chapter 4.2.
 The kiosk add-on is manually started to avoid interfering with normal HA browser access.
 
+## Day 11 — 13 June 2026
+Today I built a professional Lovelace dashboard called Smart Home Controller in Home Assistant.
+The dashboard includes a temperature gauge, PIR motion sensor entity, 24-hour temperature history graph, weather forecast and clock cards.
+I tested the dashboard from my phone browser confirming remote access works correctly at 172.20.10.14:8123.
+Push notifications were enabled on the phone for future automation alerts.
+Screenshots of the dashboard from both laptop and phone were taken for thesis evidence in Chapter 4
+
+
