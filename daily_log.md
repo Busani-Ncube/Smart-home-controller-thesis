@@ -73,4 +73,11 @@ I tested the dashboard from my phone browser confirming remote access works corr
 Push notifications were enabled on the phone for future automation alerts.
 Screenshots of the dashboard from both laptop and phone were taken for thesis evidence in Chapter 4
 
+## Day 12 — 15 June 2026
+Today I built two working automations in Home Assistant using the Automations and Scenes editor.
+The Temperature Alert automation triggers a push notification to my phone when ESP32 temperature crosses a set threshold.
+The Motion Alert automation sends a push notification when the PIR sensor detects motion.
+Both automations were tested successfully using the Run Actions feature and confirmed via live notifications on my phone.
+The relay-dependent automations (motion-triggered relay and scheduled relay off) are pending the standard 5V relay module which I will collect from my lecturer next week.
+Tomorrow I will run a full system test of Part 1 hardware and begin writing Chapter 1 of the thesis in parallel.
 
