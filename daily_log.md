@@ -92,3 +92,14 @@ Today I wrote Sections 1.3 through 1.6 of Chapter 1, completing the introduction
 Section 1.3 Aim was rewritten to reflect the ESP32, ESP32-S3, Grove Vision AI V2, and Waveshare touchscreen architecture.
 Section 1.4 Objectives was updated to six measurable objectives matching the actual hardware implementation, replacing the dropped DHT22 and SG90 servo references.
 Sections 1.5 Scope and Limitations and 1.6 Structure of Thesis were written covering WiFi dependency, prototype-level constraints, and a full chapter breakdown.
+
+## Day 17 — 21 June 2026
+Today I reviewed Chapter 2 Sections 2.1, 2.2, and 2.3 against the updated hardware architecture.
+All three sections were confirmed to be hardware-agnostic, covering smart home market history, the Home Assistant platform, and Raspberry Pi in IoT generally, requiring no rewriting.
+
+## Day 18 — 23-28 June 2026
+Today I completed Chapter 2 by writing and verifying Sections 2.4 through 2.6.
+Section 2.4 IIoT Trends and Relevance required no changes as it was already hardware-agnostic and accurate.
+Section 2.5 Sensor and AI Vision Technologies was rewritten to cover ESP32, PIR, relay, and Grove Vision AI V2, replacing the outdated DHT22 and SG90 servo content.
+Section 2.6 Comparison of Existing Solutions was updated to reflect the current hardware stack, with a minor APA in-text citation correction applied.
+I conducted a comprehensive verification pass on all citations across Chapters 1 and 2, confirming every source is real, accurately represented, and free of misattribution.
