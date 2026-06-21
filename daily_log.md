@@ -86,3 +86,9 @@ Today I revised Chapter 1 Section 1.1 Background to reflect the updated hardware
 Section 1.2 Significance of the Study was reviewed and confirmed to already align well with the current project scope, requiring no major changes.
 Both sections maintain the required minimum 200 words with proper APA citations from market research sources.
 This was lighter work than planned since the original sections were largely hardware-agnostic and only needed targeted updates rather than full rewrites.
+
+## Day 15 — 19 June 2026
+Today I wrote Sections 1.3 through 1.6 of Chapter 1, completing the introduction chapter.
+Section 1.3 Aim was rewritten to reflect the ESP32, ESP32-S3, Grove Vision AI V2, and Waveshare touchscreen architecture.
+Section 1.4 Objectives was updated to six measurable objectives matching the actual hardware implementation, replacing the dropped DHT22 and SG90 servo references.
+Sections 1.5 Scope and Limitations and 1.6 Structure of Thesis were written covering WiFi dependency, prototype-level constraints, and a full chapter breakdown.
