@@ -79,5 +79,10 @@ The Temperature Alert automation triggers a push notification to my phone when E
 The Motion Alert automation sends a push notification when the PIR sensor detects motion.
 Both automations were tested successfully using the Run Actions feature and confirmed via live notifications on my phone.
 The relay-dependent automations (motion-triggered relay and scheduled relay off) are pending the standard 5V relay module which I will collect from my lecturer next week.
-Tomorrow I will run a full system test of Part 1 hardware and begin writing Chapter 1 of the thesis in parallel.
 
+
+## Day 14 - 18 June 2026
+Today I revised Chapter 1 Section 1.1 Background to reflect the updated hardware architecture including ESP32, ESP32-S3, Grove Vision AI V2, and Waveshare touchscreen.
+Section 1.2 Significance of the Study was reviewed and confirmed to already align well with the current project scope, requiring no major changes.
+Both sections maintain the required minimum 200 words with proper APA citations from market research sources.
+This was lighter work than planned since the original sections were largely hardware-agnostic and only needed targeted updates rather than full rewrites.
