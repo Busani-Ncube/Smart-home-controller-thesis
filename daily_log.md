@@ -97,9 +97,17 @@ Sections 1.5 Scope and Limitations and 1.6 Structure of Thesis were written cove
 Today I reviewed Chapter 2 Sections 2.1, 2.2, and 2.3 against the updated hardware architecture.
 All three sections were confirmed to be hardware-agnostic, covering smart home market history, the Home Assistant platform, and Raspberry Pi in IoT generally, requiring no rewriting.
 
-## Day 18 — 23-28 June 2026
+## Day 18 — 23 June 2026
 Today I completed Chapter 2 by writing and verifying Sections 2.4 through 2.6.
 Section 2.4 IIoT Trends and Relevance required no changes as it was already hardware-agnostic and accurate.
 Section 2.5 Sensor and AI Vision Technologies was rewritten to cover ESP32, PIR, relay, and Grove Vision AI V2, replacing the outdated DHT22 and SG90 servo content.
 Section 2.6 Comparison of Existing Solutions was updated to reflect the current hardware stack, with a minor APA in-text citation correction applied.
-I conducted a comprehensive verification pass on all citations across Chapters 1 and 2, confirming every source is real, accurately represented, and free of misattribution.
+
+## Day 19 — 25 June 2026
+Today I completed Chapter 3 Sections 3.1 through 3.3 covering the full system design.
+I drew a professional system architecture diagram in draw.io showing all components, connections, and data flow, exported as PNG and inserted into the thesis.
+Section 3.1 describes the four-layer architecture connecting ESP32 sensors, ESP32-S3 Vision AI, Raspberry Pi hub, Waveshare touchscreen, and remote browser access.
+Section 3.2 justifies each hardware component choice with academic citations and practical reasoning.
+Section 3.3 details the Home Assistant configuration plan including MQTT autodiscovery, dashboard layout, automation logic, and kiosk setup.
+
+
