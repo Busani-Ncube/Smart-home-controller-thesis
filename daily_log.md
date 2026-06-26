@@ -117,3 +117,11 @@ Section 3.4 described all four automation rules using trigger-condition-action s
 Section 3.5 described the Lovelace dashboard layout and touchscreen kiosk interface design.
 Section 3.6 provided full wiring tables for ESP32-WROOM-32, ESP32-S3, and Raspberry Pi connections.
 Chapter 3 is now complete and will not be revised until final review.
+
+## Day 21 — 26 June 2026
+Today I wrote Chapter 4 Sections 4.1 through 4.3 covering the core system implementation.
+Section 4.1 documented the Raspberry Pi setup and Home Assistant OS installation process with version screenshots.
+Section 4.2 described the Waveshare touchscreen integration including touch detection verification and kiosk mode setup.
+Section 4.3 covered the ESP32 internal temperature sensor implementation including the MQTT autodiscovery sketch and entity creation in Home Assistant.
+All relevant screenshots were inserted as figures with captions throughout the three sections.
+
