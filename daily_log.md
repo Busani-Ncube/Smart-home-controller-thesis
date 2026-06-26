@@ -111,3 +111,9 @@ Section 3.2 justifies each hardware component choice with academic citations and
 Section 3.3 details the Home Assistant configuration plan including MQTT autodiscovery, dashboard layout, automation logic, and kiosk setup.
 
 
+## Day 20 — 26 June 2026
+Today I completed Chapter 3 by writing Sections 3.4 through 3.6.
+Section 3.4 described all four automation rules using trigger-condition-action structure.
+Section 3.5 described the Lovelace dashboard layout and touchscreen kiosk interface design.
+Section 3.6 provided full wiring tables for ESP32-WROOM-32, ESP32-S3, and Raspberry Pi connections.
+Chapter 3 is now complete and will not be revised until final review.
