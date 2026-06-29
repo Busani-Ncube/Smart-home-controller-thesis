@@ -125,3 +125,11 @@ Section 4.2 described the Waveshare touchscreen integration including touch dete
 Section 4.3 covered the ESP32 internal temperature sensor implementation including the MQTT autodiscovery sketch and entity creation in Home Assistant.
 All relevant screenshots were inserted as figures with captions throughout the three sections.
 
+## Day 22 - 29 June 2026
+Today I completed Chapter 4 by writing Sections 4.4 through 4.6.
+Section 4.4 described the PIR sensor integration including breadboard wiring to GPIO 14, the MQTT autodiscovery sketch with the 60-second warmup delay, and testing of motion detection in Home Assistant showing the entity update from Clear to Detected.
+Section 4.5 described the relay module integration including wiring to GPIO 26, the MQTT control logic for the home/relay/switch and home/relay/state topics, and demonstration of the relay toggling via the Home Assistant dashboard.
+Section 4.6 described the MQTT communication setup including Mosquitto broker installation as a Home Assistant add-on, MQTT Explorer verification of broker connectivity, the full topic structure table, and the overall data flow between the ESP32 devices and Home Assistant.
+
+
+
