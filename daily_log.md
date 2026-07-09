@@ -131,5 +131,24 @@ Section 4.4 described the PIR sensor integration including breadboard wiring to 
 Section 4.5 described the relay module integration including wiring to GPIO 26, the MQTT control logic for the home/relay/switch and home/relay/state topics, and demonstration of the relay toggling via the Home Assistant dashboard.
 Section 4.6 described the MQTT communication setup including Mosquitto broker installation as a Home Assistant add-on, MQTT Explorer verification of broker connectivity, the full topic structure table, and the overall data flow between the ESP32 devices and Home Assistant.
 
+## Day 23 — 1 July 2026
+Today I completed the Chapter 4 writing for Sections 4.4 through 4.6 covering PIR integration, relay module, and MQTT communication setup.
+All relevant screenshots and wiring tables were inserted as figures with captions throughout the sections.
+
+## Day 24 — 4 July 2026
+Today I integrated the 2-channel relay module (JQC3F 05VDC) with the ESP32 on GPIO 26 and 27.
+I wired a red LED with a 220 ohm resistor to relay channel 1 for visual switching demonstration.
+The relay was tested successfully with clicking confirmation and LED lighting up when toggled from Home Assistant dashboard.
+I also wired and tested the BH1750 light sensor on I2C (GPIO 21/22) confirming readings of 75-120 lux indoors.
+The Grove Vision AI V2 was connected to ESP32 via I2C on GPIO 4/5 with the Raspberry Pi Camera V2 via CSI ribbon cable.
+Person detection was confirmed working with confidence scores of 77-89% and auto-clear after 5 seconds of no detection.
+
+## Day 25 — 9 July 2026
+Today I built the final combined ESP32 sketch integrating all sensors and actuators into one unified MQTT system.
+Temperature, PIR, BH1750 light, relay 1, relay 2, and Grove Vision AI V2 all publish to Home Assistant via MQTT autodiscovery.
+All 6 entities appeared automatically in Home Assistant under Devices and Services without any manual configuration.
+The relay LED was confirmed working — toggling Smart Relay 1 from the HA dashboard physically lights the LED.
+Vision AI person detection publishes ON when a person is detected and automatically clears to OFF after 5 seconds.
+
 
 
