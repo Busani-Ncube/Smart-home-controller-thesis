@@ -150,5 +150,10 @@ All 6 entities appeared automatically in Home Assistant under Devices and Servic
 The relay LED was confirmed working — toggling Smart Relay 1 from the HA dashboard physically lights the LED.
 Vision AI person detection publishes ON when a person is detected and automatically clears to OFF after 5 seconds.
 
+## Day 23 — 27 June 2026
+Today I completed Chapter 4 by writing Sections 4.7 through 4.9.
+Section 4.7 documented all five automations with screenshots showing trigger, condition and action configurations.
+Section 4.8 described the final Smart Home Controller dashboard layout with all sensor and control cards.
+Section 4.9 documented eight technical challenges encountered during implementation and the solutions applied.
 
 
