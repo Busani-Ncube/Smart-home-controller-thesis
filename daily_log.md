@@ -162,3 +162,38 @@ Section 5.1 documented the BH1750 light sensor and 2-channel relay module integr
 Section 5.2 described the Grove Vision AI V2 integration including camera connection, model deployment via SenseCraft AI, and I2C communication with ESP32.
 Section 5.3 covered the Vision AI automation in Home Assistant including the binary sensor entity and two-layer detection system design.
 
+## Day 29 — 15 July 2026
+Today I integrated the Grove Vision AI V2 module with the ESP32-WROOM-32 via I2C on GPIO 4 and 5.
+The Raspberry Pi Camera V2 was connected to the Vision AI V2 via CSI ribbon cable.
+Person detection was confirmed working with confidence scores of 77-89% using the SenseCraft AI platform.
+The Seeed Arduino SSCMA library was installed and configured to read detection results from the Vision AI V2.
+A loose SCL wire was identified and fixed as the root cause of repeated I2C initialization failures.
+
+## Day 30 — 15 July 2026
+Today I built the final combined ESP32 sketch integrating all sensors and actuators.
+Temperature, PIR, BH1750, relay 1, relay 2, and Vision AI all publish to Home Assistant via MQTT autodiscovery.
+All 6 entities appeared automatically in Home Assistant confirming the full system integration.
+A red LED with 220 ohm resistor was wired to relay channel 1 for visual switching demonstration.
+A full system demo video was recorded showing all sensors, relay LED, and Vision AI detection working simultaneously.
+
+## Day 31 — 17 July 2026
+Today I completed all 5 automations in Home Assistant including the Vision AI Person Alert.
+The Motion and Light Triggered Relay automation was confirmed working naturally when evening light dropped below 100 lux.
+The Smart Home Controller dashboard was completed with all sensor cards organised into three sections.
+Chapter 5 sections 5.1 through 5.4 were written covering Phase 2 hardware integration and full system testing.
+
+
+## Day 32 — 19 July 2026
+Today I conducted a GVM network vulnerability assessment on the Raspberry Pi at 172.20.10.14.
+The scan ran for 35 minutes using OpenVAS and identified 14 log-level findings with no critical vulnerabilities.
+The primary finding was unencrypted MQTT on port 1883 which was documented as a known limitation.
+Chapter 5 sections 5.5 and 5.6 were written covering the GVM assessment and results analysis.
+Chapter 6 was completed covering conclusions, objectives comparison, limitations, future work and IIoT relevance.
+
+## Day 33 — 20 July 2026
+Today I wrote the Abstract summarising the complete thesis in 287 words.
+I updated Chapter 1.4 Objective 6 and Chapter 1.6 to reflect GVM assessment replacing user evaluation.
+All formatting was completed including page numbers, heading styles, table of contents and list of figures.
+The GitHub README was updated to reflect the completed project with full hardware and feature descriptions.
+Tomorrow I will conduct a final full thesis review and prepare for supervisor submission.
+
